@@ -39,7 +39,7 @@ text editors like ed. It can be used either interactively or for
 batch-mode XML processing.
 
 %description -l pl
-xsh to potê¿ne dzia³ajace z linii poleceñ narzêdzie do edycji XML
+xsh to potê¿ne dzia³ajace z linii poleceñ narzêdzie do edycji XML-a
 (DOM), a tak¿e jêzyk programowania w stylu uniksowych pow³ok oraz
 liniowo zorientowanych edytorów w stylu eda. Mo¿e byæ u¿ywane
 interaktywnie lub do wsadowego przetwarzania XML-a.
