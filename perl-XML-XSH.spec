@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	XSH
-Summary:	XML::XSH - an XML Editing Shell
+Summary:	XML::XSH - an XML editing shell
 Summary(pl):	XML::XSH - pow³oka do edycji XML-a
 Name:		perl-XML-XSH
 Version:	1.8.2
