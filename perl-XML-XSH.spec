@@ -50,7 +50,6 @@ interaktywnie lub do wsadowego przetwarzania XML-a.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
