@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	XSH
+%define		pdir	XML
+%define		pnam	XSH
 Summary:	XML::XSH - an XML editing shell
 Summary(pl):	XML::XSH - pow³oka do edycji XML-a
 Name:		perl-XML-XSH
