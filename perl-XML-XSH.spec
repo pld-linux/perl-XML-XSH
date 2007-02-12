@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	XSH
 Summary:	XML::XSH - an XML editing shell
-Summary(pl):	XML::XSH - pow³oka do edycji XML-a
+Summary(pl.UTF-8):   XML::XSH - powÅ‚oka do edycji XML-a
 Name:		perl-XML-XSH
 Version:	1.8.2
 Release:	1
@@ -38,10 +38,10 @@ language in the manner of Unix shell interpreters and line-oriented
 text editors like ed. It can be used either interactively or for
 batch-mode XML processing.
 
-%description -l pl
-xsh to potê¿ne dzia³aj±ce z linii poleceñ narzêdzie do edycji XML-a
-(DOM), a tak¿e jêzyk programowania w stylu uniksowych pow³ok oraz
-liniowo zorientowanych edytorów w stylu eda. Mo¿e byæ u¿ywane
+%description -l pl.UTF-8
+xsh to potÄ™Å¼ne dziaÅ‚ajÄ…ce z linii poleceÅ„ narzÄ™dzie do edycji XML-a
+(DOM), a takÅ¼e jÄ™zyk programowania w stylu uniksowych powÅ‚ok oraz
+liniowo zorientowanych edytorÃ³w w stylu eda. MoÅ¼e byÄ‡ uÅ¼ywane
 interaktywnie lub do wsadowego przetwarzania XML-a.
 
 %prep
