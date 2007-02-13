@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	XSH
 Summary:	XML::XSH - an XML editing shell
-Summary(pl.UTF-8):   XML::XSH - powłoka do edycji XML-a
+Summary(pl.UTF-8):	XML::XSH - powłoka do edycji XML-a
 Name:		perl-XML-XSH
 Version:	1.8.2
 Release:	1
