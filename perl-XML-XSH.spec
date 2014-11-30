@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	XSH
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::XSH - an XML editing shell
 Summary(pl.UTF-8):	XML::XSH - powłoka do edycji XML-a
 Name:		perl-XML-XSH
@@ -14,6 +14,9 @@ License:	GPL v2 or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c25f59c465f785347d0466d653d9893f
+URL:		http://search.cpan.org/dist/XML-XSH/
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Parse-RecDescent >= 1.94
 BuildRequires:	perl-XML-GDOME
@@ -22,8 +25,6 @@ BuildRequires:	perl-XML-LibXML-XPathContext >= 0.04
 BuildRequires:	perl-XML-LibXSLT >= 1.53
 BuildRequires:	perl-XML-XUpdate-LibXML >= 0.4.0
 %endif
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Parse-RecDescent >= 1.94
 Requires:	perl-XML-LibXML >= 1.54
 Requires:	perl-XML-LibXML-XPathContext >= 0.04
