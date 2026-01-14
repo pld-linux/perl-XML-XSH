@@ -8,7 +8,7 @@ Summary:	XML::XSH - an XML editing shell
 Summary(pl.UTF-8):	XML::XSH - powłoka do edycji XML-a
 Name:		perl-XML-XSH
 Version:	1.8.2
-Release:	1
+Release:	2
 License:	GPL v2 or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
